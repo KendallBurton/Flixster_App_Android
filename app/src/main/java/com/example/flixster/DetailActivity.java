@@ -56,6 +56,7 @@ public class DetailActivity extends YouTubeBaseActivity {
                     if (results.length() == 0) {
                         return;
                     }
+
                     String youtubeKey = results.getJSONObject(0).getString("key");
                     Log.d("DetailActivity", youtubeKey);
                     initializeYoutube(youtubeKey);
