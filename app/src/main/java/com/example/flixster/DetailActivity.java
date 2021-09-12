@@ -12,6 +12,8 @@ import org.parceler.Parcels;
 
 public class DetailActivity extends AppCompatActivity {
 
+    private static final String YOUTUBE_API_KEY = "AIzaSyDHLKI7dfolgfT5tbJWwbLYnQP5V-lBAiI";
+
     TextView tvTitle;
     TextView tvOverview;
     RatingBar ratingBar;
@@ -28,5 +30,7 @@ public class DetailActivity extends AppCompatActivity {
 
         Movie movie = Parcels.unwrap(getIntent().getParcelableExtra("movie"));
         tvTitle.setText(movie.getTitle());
+        tvOverview.setText(movie.getOverview());
+        ratingBar.setRating((float) movie.getRating());
     }
 }
