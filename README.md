@@ -26,7 +26,7 @@ Part One:
 <img src="https://github.com/KendallBurton/Flixster_App_Android/blob/master/Flixster%20preview%20pt1.gif" width=500><br>
 
 Part two:
-<img src="https://github.com/KendallBurton/Flixster_App_Android#:~:text=7%20days%20ago-,Flixster%20pt2.gif,-Add%20files%20via" width=500><br>
+<img src="https://github.com/KendallBurton/Flixster_App_Android/blob/master/Flixster%20pt2.gif" width=500><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
